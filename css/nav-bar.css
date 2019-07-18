@@ -1,0 +1,17 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px 50px;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f7f7f7;
+}
+.nav .nav__lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
