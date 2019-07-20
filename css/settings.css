@@ -1,0 +1,28 @@
+.settings {
+}
+
+.settings .settings__section {
+  border-top: 1px solid #f7f7f7;
+  padding: 30px 0px;
+}
+
+.settings .setting__icon {
+  font-size: 22px;
+  margin-right: 17px;
+}
+
+.setting__icon .fas fa-bullhorn {
+  font-size: 20px;
+}
+
+.settings .setting__title {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.settings .settings__setting {
+  margin-bottom: 30px;
+}
+.settings .settings__setting:last-child {
+  margin-bottom: 0px;
+}
