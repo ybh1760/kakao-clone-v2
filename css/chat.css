@@ -64,15 +64,18 @@
 
 .massage {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
+  margin-bottom: 20px;
 }
 .massage .massage__content {
   width: 80%;
+  padding: 1px;
 }
 .incoming-massage {
   align-self: flex-start;
 }
+
 .sent-massage {
   align-self: flex-end;
 }
@@ -85,7 +88,21 @@
 }
 
 .incoming-massage img {
-  width: 40px;
+  width: 35px;
   border-radius: 15px;
   margin-right: 10px;
+}
+
+.incoming-massage .massage__bubble {
+  border-top-left-radius: 0px;
+}
+.sent-massage .massage__bubble {
+  border-bottom-right-radius: 0px;
+}
+
+.incoming-massage .massage__author {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 600;
 }
