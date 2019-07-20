@@ -57,21 +57,17 @@
   background-color: aliceblue;
   padding: 5px 10px;
   border-radius: 10px;
-  box-shadow: rgba(23, 55, 87, 0.1) 0px 15px 35px 0px,
-    rgba(0, 0, 0, 0.07) 0px 5px 15px 0px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   text-transform: uppercase;
 }
 
 .massage {
   display: flex;
   align-items: flex-start;
-  width: 50%;
   margin-bottom: 20px;
 }
-.massage .massage__content {
-  width: 80%;
-  padding: 1px;
-}
+
 .incoming-massage {
   align-self: flex-start;
 }
@@ -79,12 +75,14 @@
 .sent-massage {
   align-self: flex-end;
 }
+
 .massage .massage__bubble {
-  background-color: aliceblue;
-  box-shadow: rgba(23, 55, 87, 0.1) 0px 15px 35px 0px,
-    rgba(0, 0, 0, 0.07) 0px 5px 15px 0px;
-  padding: 5px 10px;
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px 14px;
   border-radius: 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
 }
 
 .incoming-massage img {
@@ -95,14 +93,16 @@
 
 .incoming-massage .massage__bubble {
   border-top-left-radius: 0px;
+  background-image: linear-gradient(to right, #42275a, #734b6d);
 }
 .sent-massage .massage__bubble {
   border-bottom-right-radius: 0px;
+  background-image: linear-gradient(to left, #42275a, #734b6d);
 }
 
 .incoming-massage .massage__author {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 12px;
   font-weight: 600;
 }
