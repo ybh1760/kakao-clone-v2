@@ -21,7 +21,7 @@
 .chat-body {
   padding: 0px;
 }
-.chat {
+.chat-screen {
   background-image: url("../images/chatBg.png");
   min-height: 100vh;
 }
@@ -40,4 +40,52 @@
 }
 .chat__write-column i {
   font-size: 20px;
+}
+.chat-screen .chat__massage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #f7f7f7;
+  padding: 0px 20px;
+  padding-top: 30px;
+}
+
+.chat__massage .chat__timestamp {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(23, 55, 87, 0.1) 0px 15px 35px 0px,
+    rgba(0, 0, 0, 0.07) 0px 5px 15px 0px;
+  text-transform: uppercase;
+}
+
+.massage {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.massage .massage__content {
+  width: 80%;
+}
+.incoming-massage {
+  align-self: flex-start;
+}
+.sent-massage {
+  align-self: flex-end;
+}
+.massage .massage__bubble {
+  background-color: aliceblue;
+  box-shadow: rgba(23, 55, 87, 0.1) 0px 15px 35px 0px,
+    rgba(0, 0, 0, 0.07) 0px 5px 15px 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.incoming-massage img {
+  width: 40px;
+  border-radius: 15px;
+  margin-right: 10px;
 }
