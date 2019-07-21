@@ -1,3 +1,13 @@
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chat__write {
   position: fixed;
   width: 80%;
@@ -5,7 +15,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,11 +29,12 @@
   padding: 0px 20px;
 }
 .chat-body {
-  padding: 0px;
+  padding: 10px 0px;
+  padding-top: 100px;
 }
 .chat-screen {
   background-image: url("../images/chatBg.png");
-  min-height: 100vh;
+  min-height: 1000vh;
 }
 .chat__write-column:nth-child(2) {
   width: 80%;
@@ -39,7 +50,7 @@
   outline: none;
 }
 .chat__write-column i {
-  font-size: 20px;
+  font-size: 22px;
 }
 .chat-screen .chat__massage {
   display: flex;
