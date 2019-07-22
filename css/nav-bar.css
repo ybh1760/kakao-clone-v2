@@ -33,3 +33,19 @@
   height: 18px;
   border-radius: 50%;
 }
+
+@keyframes showNav {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(50px);
+  animation: showNav 1s ease-in 0.5s forwards;
+}
